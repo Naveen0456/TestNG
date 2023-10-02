@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Nucot Selenium TestNg seesions]" guice-stage="DEVELOPMENT" verbose="4">
+  <test thread-count="5" name="HRM Application Nucot(failed)" verbose="4">
+    <classes>
+      <class name="pomseries.tests.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginPageTitleTest"/>
+          <include name="closeApp"/>
+          <include name="loginButtonTest"/>
+        </methods>
+      </class> <!-- pomseries.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- HRM Application Nucot(failed) -->
+</suite> <!-- Failed suite [Regression Nucot Selenium TestNg seesions] -->
